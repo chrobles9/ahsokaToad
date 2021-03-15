@@ -3,9 +3,9 @@
 Contributors: Labinator
 Donate link: https://labinator.com/
 Tags: accessibility-ready, blog, buddypress, custom-background, custom-colors, custom-header, custom-logo, custom-menu, e-commerce, featured-image-header, featured-images, flexible-header, footer-widgets, full-width-template, grid-layout, left-sidebar, microformats, one-column, portfolio, right-sidebar, rtl-language-support, theme-options, threaded-comments, three-columns, translation-ready, two-columns, wide-blocks
-Requires at least: 5.6
+Requires at least: 5.7
 Requires PHP: 7.3
-Tested up to: 5.6.1
+Tested up to: 5.7
 License: GPLv3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 
@@ -86,6 +86,9 @@ There is an optional premium addon that you can get for NanoSpace if you need mo
 
 
 == Changelog ==
+
+1.2.0 - 14/03/2021
+* Tested the theme on WordPress 5.7 and PHP 8.0.3
 
 1.1.9 - 05/02/2021
 * Resolved a minor issue that prevented the customizer from previewing the site in the mobile layout.
