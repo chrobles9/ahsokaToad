@@ -16,7 +16,7 @@ get_header(); ?>
           <ul class="mg-page-breadcrumb">
               <li><a href="<?php echo esc_url(home_url());?>"><?php esc_html_e('Home','newsup'); ?></a></li>
               <li class="active"><?php echo esc_url(home_url());?><?php esc_html_e('404','newsup'); ?></a></li>
-            </ul>
+          </ul>
         </div>
       </div>
     </div>

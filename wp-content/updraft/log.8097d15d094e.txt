@@ -1,0 +1,397 @@
+0000.000 (0) Opened log file at time: Tue, 23 Mar 2021 13:14:51 +0000 on http://localhost/ahsokaToad
+0000.003 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.50.25 WP: 5.7 PHP: 8.0.2 (apache2handler, Windows NT DESKTOP-R0O0QQ6 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.2 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 67.2M | 72M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.005 (0) Free space on disk containing Updraft's temporary directory: 788344 MB
+0000.012 (0) Tasks: Backup files: 1 (schedule: weekly) Backup DB:  (schedule: daily)
+0000.014 (0) Processed schedules. Tasks now: Backup files: 1 Backup DB: 
+0000.018 (0) Requesting semaphore lock (f) (apparently via scheduler: last_scheduled_action_called_at=1615797774, seconds_ago=707517)
+0000.023 (0) Set semaphore last lock (f) time to 2021-03-23 13:14:51
+0000.025 (0) Semaphore lock (f) complete
+0000.030 (0) Backup run: resumption=0, nonce=8097d15d094e, file_nonce=8097d15d094e begun at=1616505291 (0s ago), job type=backup
+0000.031 (0) Scheduling a resumption (1) after 300 seconds (1616505591) in case this run gets aborted
+0000.034 (0) Checking if we have a zip executable available
+0000.037 (0) Creation of backups of directories: beginning
+0000.049 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0000.056 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ahsokaToad/wp-content/updraft/backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp (line 263, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0011.706 (0) Total entities for the zip file: 2040 directories, 11144 files (0 skipped as non-modified), 146.6 MB
+0011.708 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3459, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0011.713 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0013.066 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 100 files added (on-disk size: 385.2 KB)
+0013.133 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 200 files added (on-disk size: 385.2 KB)
+0013.196 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 300 files added (on-disk size: 385.2 KB)
+0013.267 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 400 files added (on-disk size: 385.2 KB)
+0013.339 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 500 files added (on-disk size: 385.2 KB)
+0013.449 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 600 files added (on-disk size: 385.2 KB)
+0014.502 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 700 files added (on-disk size: 385.2 KB)
+0014.612 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 800 files added (on-disk size: 385.2 KB)
+0014.709 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 900 files added (on-disk size: 385.2 KB)
+0014.795 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1000 files added (on-disk size: 385.2 KB)
+0014.798 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (17.4 MB, 11144 files batched, 1001 (1002) added so far); re-opening (prior size: 385.2 KB)
+0019.998 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1100 files added (on-disk size: 5660.6 KB)
+0020.070 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1200 files added (on-disk size: 5660.6 KB)
+0020.158 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1300 files added (on-disk size: 5660.6 KB)
+0020.252 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1400 files added (on-disk size: 5660.6 KB)
+0020.331 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1500 files added (on-disk size: 5660.6 KB)
+0020.421 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1600 files added (on-disk size: 5660.6 KB)
+0020.504 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1700 files added (on-disk size: 5660.6 KB)
+0020.570 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1800 files added (on-disk size: 5660.6 KB)
+0020.661 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 1900 files added (on-disk size: 5660.6 KB)
+0020.740 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2000 files added (on-disk size: 5660.6 KB)
+0020.744 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22.7 MB, 11144 files batched, 1001 (2003) added so far); re-opening (prior size: 5660.6 KB)
+0027.724 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2100 files added (on-disk size: 14155.6 KB)
+0027.793 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2200 files added (on-disk size: 14155.6 KB)
+0027.867 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2300 files added (on-disk size: 14155.6 KB)
+0027.937 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2400 files added (on-disk size: 14155.6 KB)
+0028.004 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2500 files added (on-disk size: 14155.6 KB)
+0028.072 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2600 files added (on-disk size: 14155.6 KB)
+0028.142 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2700 files added (on-disk size: 14155.6 KB)
+0028.218 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2800 files added (on-disk size: 14155.6 KB)
+0028.285 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 2900 files added (on-disk size: 14155.6 KB)
+0028.350 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3000 files added (on-disk size: 14155.6 KB)
+0028.355 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14 MB, 11144 files batched, 1001 (3004) added so far); re-opening (prior size: 14155.6 KB)
+0034.909 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3100 files added (on-disk size: 18927.9 KB)
+0034.992 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3200 files added (on-disk size: 18927.9 KB)
+0035.076 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3300 files added (on-disk size: 18927.9 KB)
+0035.179 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3400 files added (on-disk size: 18927.9 KB)
+0035.278 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3500 files added (on-disk size: 18927.9 KB)
+0035.363 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3600 files added (on-disk size: 18927.9 KB)
+0035.452 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3700 files added (on-disk size: 18927.9 KB)
+0035.537 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3800 files added (on-disk size: 18927.9 KB)
+0035.618 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 3900 files added (on-disk size: 18927.9 KB)
+0035.701 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4000 files added (on-disk size: 18927.9 KB)
+0035.707 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12.5 MB, 11144 files batched, 1001 (4005) added so far); re-opening (prior size: 18927.9 KB)
+0042.350 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4100 files added (on-disk size: 22772 KB)
+0042.420 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4200 files added (on-disk size: 22772 KB)
+0042.490 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4300 files added (on-disk size: 22772 KB)
+0042.561 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4400 files added (on-disk size: 22772 KB)
+0042.629 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4500 files added (on-disk size: 22772 KB)
+0042.701 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4600 files added (on-disk size: 22772 KB)
+0042.770 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4700 files added (on-disk size: 22772 KB)
+0042.830 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4800 files added (on-disk size: 22772 KB)
+0042.900 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 4900 files added (on-disk size: 22772 KB)
+0042.968 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5000 files added (on-disk size: 22772 KB)
+0042.975 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (7.3 MB, 11144 files batched, 1001 (5006) added so far); re-opening (prior size: 22772 KB)
+0048.654 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5100 files added (on-disk size: 25504.9 KB)
+0048.721 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5200 files added (on-disk size: 25504.9 KB)
+0048.787 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5300 files added (on-disk size: 25504.9 KB)
+0048.853 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5400 files added (on-disk size: 25504.9 KB)
+0048.919 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5500 files added (on-disk size: 25504.9 KB)
+0048.989 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5600 files added (on-disk size: 25504.9 KB)
+0049.062 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5700 files added (on-disk size: 25504.9 KB)
+0050.400 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5800 files added (on-disk size: 25504.9 KB)
+0050.497 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 5900 files added (on-disk size: 25504.9 KB)
+0050.575 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6000 files added (on-disk size: 25504.9 KB)
+0050.582 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (14.7 MB, 11144 files batched, 1001 (6007) added so far); re-opening (prior size: 25504.9 KB)
+0059.196 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6100 files added (on-disk size: 29350.7 KB)
+0059.339 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6200 files added (on-disk size: 29350.7 KB)
+0059.462 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6300 files added (on-disk size: 29350.7 KB)
+0059.591 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6400 files added (on-disk size: 29350.7 KB)
+0059.705 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6500 files added (on-disk size: 29350.7 KB)
+0059.814 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6600 files added (on-disk size: 29350.7 KB)
+0059.935 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6700 files added (on-disk size: 29350.7 KB)
+0060.021 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6800 files added (on-disk size: 29350.7 KB)
+0060.106 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 6900 files added (on-disk size: 29350.7 KB)
+0060.189 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7000 files added (on-disk size: 29350.7 KB)
+0060.199 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (3.9 MB, 11144 files batched, 1001 (7008) added so far); re-opening (prior size: 29350.7 KB)
+0069.018 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7100 files added (on-disk size: 31059.1 KB)
+0069.086 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7200 files added (on-disk size: 31059.1 KB)
+0069.172 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7300 files added (on-disk size: 31059.1 KB)
+0069.251 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7400 files added (on-disk size: 31059.1 KB)
+0069.329 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7500 files added (on-disk size: 31059.1 KB)
+0069.403 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7600 files added (on-disk size: 31059.1 KB)
+0069.481 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7700 files added (on-disk size: 31059.1 KB)
+0069.554 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7800 files added (on-disk size: 31059.1 KB)
+0069.632 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 7900 files added (on-disk size: 31059.1 KB)
+0069.709 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8000 files added (on-disk size: 31059.1 KB)
+0069.720 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (6.9 MB, 11144 files batched, 1001 (8009) added so far); re-opening (prior size: 31059.1 KB)
+0082.273 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8100 files added (on-disk size: 33168 KB)
+0082.414 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8200 files added (on-disk size: 33168 KB)
+0082.536 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8300 files added (on-disk size: 33168 KB)
+0082.638 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.8 MB, 377 (8386) files added so far); re-opening (prior size: 33168 KB)
+0098.362 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8400 files added (on-disk size: 36556.6 KB)
+0098.517 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8500 files added (on-disk size: 36556.6 KB)
+0098.687 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8600 files added (on-disk size: 36556.6 KB)
+0098.854 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8700 files added (on-disk size: 36556.6 KB)
+0098.995 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8800 files added (on-disk size: 36556.6 KB)
+0101.210 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.3 MB, 488 (8874) files added so far); re-opening (prior size: 36556.6 KB)
+0114.358 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 8900 files added (on-disk size: 38129.8 KB)
+0114.588 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9000 files added (on-disk size: 38129.8 KB)
+0114.874 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9100 files added (on-disk size: 38129.8 KB)
+0115.778 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9200 files added (on-disk size: 38129.8 KB)
+0117.117 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (5.7 MB, 374 (9248) files added so far); re-opening (prior size: 38129.8 KB)
+0124.148 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9300 files added (on-disk size: 39855.2 KB)
+0124.202 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9400 files added (on-disk size: 39855.2 KB)
+0124.268 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9500 files added (on-disk size: 39855.2 KB)
+0124.344 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9600 files added (on-disk size: 39855.2 KB)
+0124.428 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9700 files added (on-disk size: 39855.2 KB)
+0124.517 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9800 files added (on-disk size: 39855.2 KB)
+0124.612 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 9900 files added (on-disk size: 39855.2 KB)
+0124.702 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10000 files added (on-disk size: 39855.2 KB)
+0124.790 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10100 files added (on-disk size: 39855.2 KB)
+0124.882 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10200 files added (on-disk size: 39855.2 KB)
+0124.930 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (12 MB, 11144 files batched, 1001 (10249) added so far); re-opening (prior size: 39855.2 KB)
+0149.269 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10300 files added (on-disk size: 44713.9 KB)
+0149.355 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10400 files added (on-disk size: 44713.9 KB)
+0149.433 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10500 files added (on-disk size: 44713.9 KB)
+0149.519 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10600 files added (on-disk size: 44713.9 KB)
+0149.605 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10700 files added (on-disk size: 44713.9 KB)
+0149.693 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10800 files added (on-disk size: 44713.9 KB)
+0149.780 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 10900 files added (on-disk size: 44713.9 KB)
+0149.866 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 11000 files added (on-disk size: 44713.9 KB)
+0149.955 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip.tmp: 11100 files added (on-disk size: 44713.9 KB)
+0176.607 (0) Created plugins zip (0) - 51936 KB in 176.5 s (294.2 KB/s) (sha1: d931e413cfc36df12bffe637901fe3c818d6d332, sha256: 68157b4b428e9595f094947b2c1425c6ce819a9d03ea47dc7387b668613d77c8)
+0176.621 (0) Beginning creation of dump of themes (split every: 400 MB)
+0176.627 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ahsokaToad/wp-content/updraft/backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp (line 263, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0180.096 (0) Total entities for the zip file: 221 directories, 1054 files (0 skipped as non-modified), 22.9 MB
+0180.100 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3459, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0180.102 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0180.302 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 100 files added (on-disk size: 32.7 KB)
+0180.376 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 200 files added (on-disk size: 32.7 KB)
+0180.427 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 300 files added (on-disk size: 32.7 KB)
+0180.488 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 400 files added (on-disk size: 32.7 KB)
+0180.544 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 500 files added (on-disk size: 32.7 KB)
+0180.599 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 600 files added (on-disk size: 32.7 KB)
+0180.643 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 700 files added (on-disk size: 32.7 KB)
+0180.693 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 800 files added (on-disk size: 32.7 KB)
+0180.750 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 900 files added (on-disk size: 32.7 KB)
+0180.797 (0) Zip: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip.tmp: 1000 files added (on-disk size: 32.7 KB)
+0180.801 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 1000 files added on this batch (22 MB, 1054 files batched, 1001 (1002) added so far); re-opening (prior size: 32.7 KB)
+0197.371 (0) Created themes zip (0) - 9960.9 KB in 20.7 s (480.3 KB/s) (sha1: c75ac412158d014bc2db70c56c7184a89eff17c4, sha256: 4566d68f01fe790fc824069401429c09dd5c750d64f064a57db2959f036eeed9)
+0197.389 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0197.390 (0) Looking for candidates to backup in: C:\xampp\htdocs\ahsokaToad/wp-content/uploads
+0197.392 (0) finding files: 2021: adding to list (1)
+0197.394 (0) finding files: bb-plugin: adding to list (2)
+0197.395 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0197.402 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ahsokaToad/wp-content/updraft/backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip.tmp (line 263, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0197.446 (0) Total entities for the zip file: 6 directories, 36 files (0 skipped as non-modified), 137.8 MB
+0197.448 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3459, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0197.455 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 25 MB added on this batch (28.3 MB, 36 files batched, 7 (7) added so far); re-opening (prior size: 0 KB)
+0197.893 (0) A useful amount of data was added after this amount of zip processing: 1.3 s (normalised: 1.1 s, rate: 23099.5 KB/s)
+0197.895 (0) Performance is good - will increase the amount of data we attempt to batch (time=1.2548639774323, normalised_time=1.1082469299219, max_time=197.89365100861, data points known=1, old_max_bytes=26214400, new_max_bytes=209715200)
+0203.283 (0) Created uploads zip (0) - 141040.7 KB in 5.9 s (24017.5 KB/s) (sha1: ff48644e74e23ad924e410ad21c28ceb2166bb36, sha256: f45546906e97b51b463b077fce168f56eafea9cadd397442d23cc2b7068746f9)
+0203.293 (0) No backup of wpcore: excluded by user's options
+0203.297 (0) Beginning backup of other directories found in the content directory (index: 0)
+0203.298 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0203.300 (0) Looking for candidates to backup in: C:\xampp\htdocs\ahsokaToad/wp-content
+0203.302 (0) finding files: advanced-cache.php: adding to list (1)
+0203.303 (0) finding files: cache: skipping: excluded by options
+0203.305 (0) finding files: index.php: adding to list (2)
+0203.306 (0) finding files: plugins: skipping: this is the plugins directory
+0203.308 (0) finding files: themes: skipping: this is the themes directory
+0203.309 (0) finding files: updraft: skipping: this is the updraft directory
+0203.310 (0) finding files: upgrade: skipping: excluded by options
+0203.312 (0) finding files: uploads: skipping: this is the uploads directory
+0203.313 (0) finding files: wflogs: adding to list (3)
+0203.314 (0) finding files: wp-cache-config.php: adding to list (4)
+0203.319 (0) PHP event: code E_WARNING: filemtime(): stat failed for C:\xampp\htdocs\ahsokaToad/wp-content/updraft/backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip.tmp (line 263, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0203.335 (0) Total entities for the zip file: 1 directories, 13 files (0 skipped as non-modified), 5.3 MB
+0203.337 (0) PHP event: code E_DEPRECATED: ZipArchive::open(): Using empty file as ZipArchive is deprecated (line 3459, C:\xampp\htdocs\ahsokaToad\wp-content\plugins\updraftplus\backup.php)
+0208.072 (0) Created others zip (0) - 2465.8 KB in 4.7 s (519.4 KB/s) (sha1: 91a5dfcad19fb53c3aec95092b7815acfe01ddae, sha256: b1758b2afbaccf577f9e62ab0616684bc2b0153c69d3a0513f627dcdfc124418)
+0208.080 (0) No backup of more: excluded by user's options
+0208.087 (0) Saving backup status to database (elements: 8)
+0208.092 (0) No database backup (wp) - not part of this run
+0208.097 (0) backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0208.098 (0) backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0208.101 (0) backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0208.103 (0) backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip: others: This file has not yet been successfully uploaded: will queue
+0208.104 (0) Saving backup history. Total backup size: 200.6 MB
+0208.108 (0) Requesting upload of the files that have not yet been successfully uploaded (4)
+0208.111 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0208.113 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-011c2fa2fc4dbb9fbdd6930ce9549965)
+0208.523 (0) Google Drive: quota usage: used=43799.4 MB, total=204800 MB, available=161000.6 MB
+0208.527 (0) Google Drive: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip: Attempting to upload to Google Drive (into folder id: 1lgipZbVTzebd9nBJuijSi3FOvG2Qpgst)
+0211.759 (0) Googledrive chunked upload: 2 % uploaded (1048576)
+0212.768 (0) Googledrive chunked upload: 3.9 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 67.4 / 74)
+0216.966 (0) Googledrive chunked upload: 7.9 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 67.4 / 74)
+0221.776 (0) Googledrive chunked upload: 15.8 % uploaded (8388608)
+0226.341 (0) Googledrive chunked upload: 23.7 % uploaded (12582912)
+0232.043 (0) Googledrive chunked upload: 31.5 % uploaded (16777216)
+0237.516 (0) Googledrive chunked upload: 39.4 % uploaded (20971520)
+0242.814 (0) Googledrive chunked upload: 47.3 % uploaded (25165824)
+0248.152 (0) Googledrive chunked upload: 55.2 % uploaded (29360128)
+0251.806 (0) Googledrive chunked upload: 63.1 % uploaded (33554432)
+0257.445 (0) The scheduled resumption is within 45 seconds - will reschedule
+0257.449 (0) Rescheduling resumption 1: moving to 345 seconds from now (1616505893)
+0257.455 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0257.457 (0) Googledrive chunked upload: 71 % uploaded (37748736)
+0264.064 (0) Googledrive chunked upload: 78.9 % uploaded (41943040)
+0269.800 (0) Googledrive chunked upload: 86.8 % uploaded (46137344)
+0277.415 (0) Googledrive chunked upload: 94.6 % uploaded (50331648)
+0282.003 (0) Googledrive chunked upload: 100 % uploaded (50331648)
+0282.011 (0) Google Drive: OK: Archive backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip uploaded in 73.48 seconds
+0282.014 (0) Recording as successfully uploaded: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip
+0282.024 (0) Deleting local file: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-plugins.zip: OK
+0282.454 (0) Google Drive: quota usage: used=43850.1 MB, total=204800 MB, available=160949.9 MB
+0282.457 (0) Google Drive: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip: Attempting to upload to Google Drive (into folder id: 1lgipZbVTzebd9nBJuijSi3FOvG2Qpgst)
+0285.710 (0) Googledrive chunked upload: 10.3 % uploaded (1048576)
+0287.824 (0) Googledrive chunked upload: 20.6 % uploaded (2097152 - increasing chunk size to 2048 KB - memory usage: 67.4 / 74)
+0290.003 (0) Googledrive chunked upload: 41.1 % uploaded (4194304 - increasing chunk size to 4096 KB - memory usage: 67.4 / 74)
+0295.722 (0) Googledrive chunked upload: 82.2 % uploaded (8388608)
+0298.902 (0) Googledrive chunked upload: 100 % uploaded (8388608)
+0298.908 (0) Google Drive: OK: Archive backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip uploaded in 16.45 seconds
+0298.909 (0) Recording as successfully uploaded: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip
+0298.914 (0) Deleting local file: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-themes.zip: OK
+0299.220 (0) Google Drive: quota usage: used=43859.8 MB, total=204800 MB, available=160940.2 MB
+0299.222 (0) Google Drive: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip: Attempting to upload to Google Drive (into folder id: 1lgipZbVTzebd9nBJuijSi3FOvG2Qpgst)
+0300.853 (0) Googledrive chunked upload: 0.7 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 67.4 / 76)
+0303.790 (0) Googledrive chunked upload: 2.2 % uploaded (3145728)
+0306.809 (0) Googledrive chunked upload: 3.6 % uploaded (5242880)
+0309.327 (0) Googledrive chunked upload: 5.1 % uploaded (7340032)
+0312.382 (0) Googledrive chunked upload: 6.5 % uploaded (9437184)
+0316.068 (0) The time we have been running (316.1) is approaching the resumption interval (345) - increasing resumption interval to 347
+0316.074 (0) Googledrive chunked upload: 8 % uploaded (11534336)
+0319.681 (0) The time we have been running (319.7) is approaching the resumption interval (347) - increasing resumption interval to 350
+0319.685 (0) Googledrive chunked upload: 9.4 % uploaded (13631488)
+0323.066 (0) The time we have been running (323.1) is approaching the resumption interval (350) - increasing resumption interval to 354
+0323.070 (0) Googledrive chunked upload: 10.9 % uploaded (15728640)
+0326.962 (0) The time we have been running (327) is approaching the resumption interval (354) - increasing resumption interval to 357
+0326.966 (0) Googledrive chunked upload: 12.3 % uploaded (17825792)
+0329.458 (0) The time we have been running (329.5) is approaching the resumption interval (357) - increasing resumption interval to 360
+0329.461 (0) Googledrive chunked upload: 13.8 % uploaded (19922944 - increasing chunk size to 4096 KB - memory usage: 67.4 / 76)
+0334.479 (1) Opened log file at time: Tue, 23 Mar 2021 13:20:25 +0000 on http://localhost/ahsokaToad
+0334.481 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.50.25 WP: 5.7 PHP: 8.0.2 (apache2handler, Windows NT DESKTOP-R0O0QQ6 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.17-MariaDB WPLANG: en_US Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1h PHP/8.0.2 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 58M | 6M) multisite: N openssl: OpenSSL 1.1.1i  8 Dec 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0334.482 (1) Free space on disk containing Updraft's temporary directory: 787629.6 MB
+0334.485 (1) Requesting backup semaphore lock (8097d15d094e)
+0334.488 (1) [Lock option (updraft_lock_8097d15d094e, wp_options) was created in the database] debug
+0334.490 (1) [Lock (updraft_lock_8097d15d094e, wp_options) acquired after initialising the database] info
+0334.494 (1) Terminate: check-in exists with activity within the last 30 seconds (time_mod=1616505620.8, time_now=1616505625.8, diff=5, size=n/a). This likely means that another UpdraftPlus run is at work; so we will exit.
+0334.496 (1) A new resumption will be scheduled to prevent the job ending
+0334.497 (1) Rescheduling resumption 2: moving to 480 seconds from now (1616506105)
+0334.503 (1) To decrease the likelihood of overlaps, increasing resumption interval to: 360 + 120 = 480
+0338.996 (0) The time we have been running (339) is approaching the resumption interval (360) - increasing resumption interval to 369
+0339.000 (0) Googledrive chunked upload: 16.7 % uploaded (24117248)
+0343.309 (0) The time we have been running (343.3) is approaching the resumption interval (369) - increasing resumption interval to 374
+0343.312 (0) Googledrive chunked upload: 19.6 % uploaded (28311552)
+0348.801 (0) The time we have been running (348.8) is approaching the resumption interval (374) - increasing resumption interval to 379
+0348.806 (0) Googledrive chunked upload: 22.5 % uploaded (32505856)
+0353.809 (0) The time we have been running (353.8) is approaching the resumption interval (379) - increasing resumption interval to 384
+0353.813 (0) Googledrive chunked upload: 25.4 % uploaded (36700160)
+0358.877 (0) The time we have been running (358.9) is approaching the resumption interval (384) - increasing resumption interval to 389
+0358.880 (0) Googledrive chunked upload: 28.3 % uploaded (40894464)
+0363.228 (0) The time we have been running (363.2) is approaching the resumption interval (389) - increasing resumption interval to 394
+0363.232 (0) Googledrive chunked upload: 31.2 % uploaded (45088768)
+0366.965 (0) The time we have been running (367) is approaching the resumption interval (394) - increasing resumption interval to 397
+0366.969 (0) Googledrive chunked upload: 34.1 % uploaded (49283072)
+0370.610 (0) The time we have been running (370.6) is approaching the resumption interval (397) - increasing resumption interval to 401
+0370.614 (0) Googledrive chunked upload: 37 % uploaded (53477376)
+0374.018 (0) The time we have been running (374) is approaching the resumption interval (401) - increasing resumption interval to 405
+0374.023 (0) Googledrive chunked upload: 39.9 % uploaded (57671680)
+0377.613 (0) The time we have been running (377.6) is approaching the resumption interval (405) - increasing resumption interval to 408
+0377.617 (0) Googledrive chunked upload: 42.8 % uploaded (61865984)
+0381.150 (0) The time we have been running (381.1) is approaching the resumption interval (408) - increasing resumption interval to 412
+0381.153 (0) Googledrive chunked upload: 45.7 % uploaded (66060288)
+0384.652 (0) The time we have been running (384.6) is approaching the resumption interval (412) - increasing resumption interval to 415
+0384.655 (0) Googledrive chunked upload: 48.6 % uploaded (70254592)
+0388.132 (0) The time we have been running (388.1) is approaching the resumption interval (415) - increasing resumption interval to 419
+0388.136 (0) Googledrive chunked upload: 51.5 % uploaded (74448896)
+0391.885 (0) The time we have been running (391.9) is approaching the resumption interval (419) - increasing resumption interval to 422
+0391.888 (0) Googledrive chunked upload: 54.5 % uploaded (78643200)
+0395.717 (0) The time we have been running (395.7) is approaching the resumption interval (422) - increasing resumption interval to 426
+0395.724 (0) Googledrive chunked upload: 57.4 % uploaded (82837504)
+0399.337 (0) The time we have been running (399.3) is approaching the resumption interval (426) - increasing resumption interval to 430
+0399.341 (0) Googledrive chunked upload: 60.3 % uploaded (87031808)
+0403.141 (0) The time we have been running (403.1) is approaching the resumption interval (430) - increasing resumption interval to 434
+0403.144 (0) Googledrive chunked upload: 63.2 % uploaded (91226112)
+0406.504 (0) The time we have been running (406.5) is approaching the resumption interval (434) - increasing resumption interval to 437
+0406.508 (0) Googledrive chunked upload: 66.1 % uploaded (95420416)
+0410.298 (0) The time we have been running (410.3) is approaching the resumption interval (437) - increasing resumption interval to 441
+0410.301 (0) Googledrive chunked upload: 69 % uploaded (99614720)
+0413.767 (0) The time we have been running (413.8) is approaching the resumption interval (441) - increasing resumption interval to 444
+0413.770 (0) Googledrive chunked upload: 71.9 % uploaded (103809024)
+0417.515 (0) The time we have been running (417.5) is approaching the resumption interval (444) - increasing resumption interval to 448
+0417.519 (0) Googledrive chunked upload: 74.8 % uploaded (108003328)
+0421.191 (0) The time we have been running (421.2) is approaching the resumption interval (448) - increasing resumption interval to 452
+0421.199 (0) Googledrive chunked upload: 77.7 % uploaded (112197632)
+0425.171 (0) The time we have been running (425.2) is approaching the resumption interval (452) - increasing resumption interval to 456
+0425.178 (0) Googledrive chunked upload: 80.6 % uploaded (116391936)
+0428.652 (0) The time we have been running (428.6) is approaching the resumption interval (456) - increasing resumption interval to 459
+0428.656 (0) Googledrive chunked upload: 83.5 % uploaded (120586240)
+0432.908 (0) The time we have been running (432.9) is approaching the resumption interval (459) - increasing resumption interval to 463
+0432.912 (0) Googledrive chunked upload: 86.4 % uploaded (124780544)
+0436.687 (0) The time we have been running (436.7) is approaching the resumption interval (463) - increasing resumption interval to 467
+0436.693 (0) Googledrive chunked upload: 89.3 % uploaded (128974848)
+0440.287 (0) The time we have been running (440.3) is approaching the resumption interval (467) - increasing resumption interval to 471
+0440.291 (0) Googledrive chunked upload: 92.2 % uploaded (133169152)
+0445.014 (0) The time we have been running (445) is approaching the resumption interval (471) - increasing resumption interval to 476
+0445.019 (0) Googledrive chunked upload: 95.1 % uploaded (137363456)
+0448.910 (0) The time we have been running (448.9) is approaching the resumption interval (476) - increasing resumption interval to 479
+0448.913 (0) Googledrive chunked upload: 98 % uploaded (141557760)
+0452.986 (0) The time we have been running (453) is approaching the resumption interval (479) - increasing resumption interval to 483
+0452.995 (0) Googledrive chunked upload: 100 % uploaded (141557760)
+0453.006 (0) Google Drive: OK: Archive backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip uploaded in 153.78 seconds
+0453.009 (0) Recording as successfully uploaded: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip
+0453.027 (0) Deleting local file: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-uploads.zip: OK
+0453.481 (0) Google Drive: quota usage: used=43874.6 MB, total=204800 MB, available=160925.4 MB
+0453.485 (0) Google Drive: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip: Attempting to upload to Google Drive (into folder id: 1lgipZbVTzebd9nBJuijSi3FOvG2Qpgst)
+0455.455 (0) The time we have been running (455.5) is approaching the resumption interval (483) - increasing resumption interval to 486
+0455.458 (0) Googledrive chunked upload: 41.5 % uploaded (1048576 - increasing chunk size to 2048 KB - memory usage: 67.4 / 76)
+0459.347 (0) The time we have been running (459.3) is approaching the resumption interval (486) - increasing resumption interval to 490
+0459.351 (0) Googledrive chunked upload: 100 % uploaded (1048576)
+0459.357 (0) Google Drive: OK: Archive backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip uploaded in 5.87 seconds
+0459.359 (0) Recording as successfully uploaded: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip
+0459.364 (0) Deleting local file: backup_2021-03-23-0914_Ahsoka_Toad_8097d15d094e-others.zip: OK
+0459.368 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=3, retain_db=14
+0459.371 (0) Number of backup sets in history: 13; groups (db): 1
+0459.372 (0) Examining (for databases) backup set with group_id=0, nonce=af8fb12fb945, datestamp=1616505363 (Mar 23 2021 13:16:03)
+0459.373 (0) This backup set (1616505363) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0459.373 (0) Examining (for databases) backup set with group_id=0, nonce=8097d15d094e, datestamp=1616505291 (Mar 23 2021 13:14:51)
+0459.374 (0) Examining (for databases) backup set with group_id=0, nonce=3492806ea777, datestamp=1616505266 (Mar 23 2021 13:14:26)
+0459.374 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.375 (0) Examining (for databases) backup set with group_id=0, nonce=c87c4e5160db, datestamp=1616169888 (Mar 19 2021 16:04:48)
+0459.375 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.375 (0) Examining (for databases) backup set with group_id=0, nonce=f61940d10fdf, datestamp=1616087513 (Mar 18 2021 17:11:53)
+0459.375 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0459.377 (0) Examining (for databases) backup set with group_id=0, nonce=04e61c623cd7, datestamp=1616087133 (Mar 18 2021 17:05:33)
+0459.377 (0) This backup set (1616087133) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0459.377 (0) Examining (for databases) backup set with group_id=0, nonce=e1583f0a6665, datestamp=1616087078 (Mar 18 2021 17:04:38)
+0459.377 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.378 (0) Examining (for databases) backup set with group_id=0, nonce=816b4e2d4c8c, datestamp=1615802687 (Mar 15 2021 10:04:47)
+0459.378 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0459.379 (0) Examining (for databases) backup set with group_id=0, nonce=cd14872c9fd3, datestamp=1615797863 (Mar 15 2021 08:44:23)
+0459.379 (0) This backup set (1615797863) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0459.379 (0) Examining (for databases) backup set with group_id=0, nonce=797586b52846, datestamp=1615797756 (Mar 15 2021 08:42:36)
+0459.380 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.381 (0) Examining (for databases) backup set with group_id=0, nonce=bff446eda59d, datestamp=1615555108 (Mar 12 2021 13:18:28)
+0459.381 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.381 (0) Examining (for databases) backup set with group_id=0, nonce=2a58bb04a49e, datestamp=1615474205 (Mar 11 2021 14:50:05)
+0459.381 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.381 (0) Examining (for databases) backup set with group_id=0, nonce=bb7e8cd23337, datestamp=1615473136 (Mar 11 2021 14:32:16)
+0459.381 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.381 (0) Number of backup sets in history: 13; groups (files): 1
+0459.382 (0) Examining (for files) backup set with nonce=af8fb12fb945, datestamp=1616505363 (Mar 23 2021 13:16:03)
+0459.383 (0) This backup set (1616505363) was an automatic backup, and we have not yet reached any retain limits, so it will not be counted or pruned. Skipping.
+0459.383 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0459.384 (0) Examining (for files) backup set with nonce=8097d15d094e, datestamp=1616505291 (Mar 23 2021 13:14:51)
+0459.384 (0) This backup set is the backup set just made, so will not be deleted.
+0459.385 (0) This backup set is the backup set just made, so will not be deleted.
+0459.385 (0) This backup set is the backup set just made, so will not be deleted.
+0459.385 (0) This backup set is the backup set just made, so will not be deleted.
+0459.385 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0459.386 (0) Examining (for files) backup set with nonce=3492806ea777, datestamp=1616505266 (Mar 23 2021 13:14:26)
+0459.387 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.388 (0) Examining (for files) backup set with nonce=c87c4e5160db, datestamp=1616169888 (Mar 19 2021 16:04:48)
+0459.388 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.388 (0) Examining (for files) backup set with nonce=f61940d10fdf, datestamp=1616087513 (Mar 18 2021 17:11:53)
+0459.388 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0459.389 (0) Examining (for files) backup set with nonce=04e61c623cd7, datestamp=1616087133 (Mar 18 2021 17:05:33)
+0459.389 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.390 (0) Examining (for files) backup set with nonce=e1583f0a6665, datestamp=1616087078 (Mar 18 2021 17:04:38)
+0459.390 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.390 (0) Examining (for files) backup set with nonce=816b4e2d4c8c, datestamp=1615802687 (Mar 15 2021 10:04:47)
+0459.390 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0459.391 (0) Examining (for files) backup set with nonce=cd14872c9fd3, datestamp=1615797863 (Mar 15 2021 08:44:23)
+0459.391 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.392 (0) Examining (for files) backup set with nonce=797586b52846, datestamp=1615797756 (Mar 15 2021 08:42:36)
+0459.392 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.393 (0) Examining (for files) backup set with nonce=bff446eda59d, datestamp=1615555108 (Mar 12 2021 13:18:28)
+0459.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.393 (0) Examining (for files) backup set with nonce=2a58bb04a49e, datestamp=1615474205 (Mar 11 2021 14:50:05)
+0459.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.393 (0) Examining (for files) backup set with nonce=bb7e8cd23337, datestamp=1615473136 (Mar 11 2021 14:32:16)
+0459.393 (0) This backup set remains non-empty (f=0/d=1); will retain in history
+0459.394 (0) Retain: saving new backup history (sets now: 13) and finishing retain operation
+0459.396 (0) Resume backup (8097d15d094e, 0): finish run
+0459.400 (0) Decremented the semaphore (f) by 1
+0459.402 (0) Semaphore (f) unlocked
+0459.403 (0) There were no errors in the uploads, so the 'resume' event (1) is being unscheduled
+0459.412 (0) Sending email ('Files only (database was not part of this particular schedule) (Full backup)') report (attachments: 0, size: 44.9 KB) to: chrob...
+0459.414 (0) The backup apparently succeeded and is now complete
