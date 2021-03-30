@@ -75,6 +75,7 @@ if (!class_exists('Newsup_Posts_List')) :
                                 <ul>
                                     <li class="small-post clearfix">
                                         <!-- small_post -->
+                                        <?php if ( has_post_thumbnail() ) {  ?>
                                         <div class="img-small-post">
                                             <a href="<?php the_permalink(); ?>">
                                                 <?php if (!empty($url)): ?>
@@ -84,6 +85,7 @@ if (!class_exists('Newsup_Posts_List')) :
                                             <!-- img-small-post -->
                                         </div>
                                         <!-- // img-small-post -->
+                                        <?php } ?>
                                         <div class="small-post-content">
                                             <div class="mg-blog-category"> 
                                                 <?php newsup_post_categories(); ?>
